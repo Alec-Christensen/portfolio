@@ -1,0 +1,11 @@
+# Ignorera node_modules-mappen (om du använder Node.js)
+node_modules/
+
+# Ignorera miljövariabler
+.env
+
+# Ignorera MacOS-specifika filer
+.DS_Store
+
+# Ignorera loggfiler
+*.log
