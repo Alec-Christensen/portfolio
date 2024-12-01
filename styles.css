@@ -99,4 +99,43 @@
     }
 }
 
+/* References mobilstyling */
+.section-references {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.reference-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reference-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+/* References responsiv styling */
+@media (min-width: 768px) {
+    .reference-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .reference-item {
+        flex: 0 1 400px;
+        text-align: left;
+    }
+}
+
+
 
