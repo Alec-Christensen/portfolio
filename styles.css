@@ -23,3 +23,41 @@
         max-width: 350px; 
     }
 }
+
+.section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+/* Skills mobilstyling */
+.skill-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Responsiv styling för Skills */
+@media (min-width: 768px) {
+    .skill-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .skill-list li {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+        padding: 10px;
+        max-width: 120px;
+    }
+}
