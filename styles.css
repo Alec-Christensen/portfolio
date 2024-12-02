@@ -377,7 +377,7 @@ form button:hover {
 footer {
     background-color: #333;
     color: white;
-    padding: 1rem 0;
+    padding: 0.5rem 0; 
     text-align: center;
 }
 
@@ -385,7 +385,7 @@ footer .social-links {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 footer .social-links a {
@@ -396,8 +396,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #00d0a3; /* Ljusare nyans av grönt */
-    transform: scale(1.2); /* Lätt zoom-effekt */
+    color: #00d0a3; 
+    transform: scale(1.2); 
 }
 
 /* Responsiv styling för Footer */
