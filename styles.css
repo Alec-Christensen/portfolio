@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/*Global styling */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
 .section-about {
     display: flex;
     flex-direction: column;
@@ -218,6 +245,3 @@ footer .social-links a {
         justify-content: center; 
     }
 }
-
-
-
