@@ -392,6 +392,12 @@ footer .social-links a {
     color: #02a37a;
     font-size: 1.5rem;
     text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #00d0a3; /* Ljusare nyans av grönt */
+    transform: scale(1.2); /* Lätt zoom-effekt */
 }
 
 /* Responsiv styling för Footer */
