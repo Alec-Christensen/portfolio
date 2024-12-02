@@ -158,6 +158,25 @@ text-decoration: underline;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.github-link {
+    color: #0366d6; /* GitHub blå färg */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Mellanrum om du vill lägga till en ikon */
+}
+
+.github-link:hover {
+    color: #05428c; /* Mörkare blå vid hover */
+    text-decoration: underline;
+}
+
+
+.github-link i {
+    font-size: 1.2rem; 
+}
+
 /* Portfolio responsiv styling */
 @media (min-width: 768px) {
     .portfolio-items {
