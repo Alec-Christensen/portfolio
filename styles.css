@@ -186,17 +186,55 @@ header h1 {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 .skill-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     text-align: center;
     gap: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.skill-list img {
+    width: 2.5rem !important; /* Tvinga bredden */
+    height: 2.5rem !important; 
+    object-fit: contain; 
+    transition: transform 0.3s ease; 
+}
+
+.skill-list img:hover {
+    transform: scale(1.2); 
+}
+
+.skill-list .fa-html5 {
+    color: #e34c26; 
+}
+
+.skill-list .fa-css3-alt {
+    color: #1572b6; 
+}
+
+.skill-list .fa-js {
+    color: #f7df1e; 
+}
+
+.skill-list .fa-git-alt {
+    color: #f05032; 
+}
+
+
+.skill-list li:hover {
+    transform: scale(1.2); 
+}
+
+.skill-list i {
+    font-size: 2.5rem; 
+    transition: transform 0.3s ease;
 }
 
 /* Responsiv styling för Skills */
