@@ -125,7 +125,19 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
+    margin: 0; 
+    padding: 0; 
+}
+
+.skill-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    gap: 0.5rem;
 }
 
 /* Responsiv styling för Skills */
@@ -138,14 +150,8 @@ header h1 {
     }
 
     .skill-list li {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 0.5rem;
-        padding: 10px;
         max-width: 120px;
+        padding: 10px;
     }
 }
 
