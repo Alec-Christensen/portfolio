@@ -30,6 +30,48 @@ p {
     margin: 0 0 15px;
 }
 
+/*Navbar styling */
+nav {
+    background-color: #005f4b;
+    padding:  1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* Responsiv design för större skärmar */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+
+    nav ul li {
+        margin: 0 15px; 
+    }
+}
+
 .section-about {
     display: flex;
     flex-direction: column;
