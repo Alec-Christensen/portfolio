@@ -98,6 +98,25 @@ header h1 {
     border-radius: 50%; 
 }
 
+.section-about .btn {
+    display: inline-block;
+    background-color: #005f4b; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-about .btn:hover {
+    background-color: #00473a; 
+}
+
+
 /* Responsiv styling för större skärmar */
 @media (min-width: 768px) {
     .section-about {
