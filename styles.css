@@ -362,6 +362,26 @@ form button:hover {
     background-color: #00473a;
 }
 
+/* Styling for Contact Info */
+.contact-info {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.contact-info a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #05428c;
+    text-decoration: underline;
+}
+
+
 /* Responsiv styling för Contact Me */
 @media (min-width: 768px) {
     form {
