@@ -94,7 +94,7 @@ header h1 {
 }
 
 .section-about img {
-    max-width: 300px; 
+    max-width: 400px; 
     border-radius: 50%; 
 }
 
@@ -107,7 +107,7 @@ header h1 {
     }
 
     .section-about img {
-        max-width: 350px; 
+        max-width: 700px; 
     }
 }
 
