@@ -350,6 +350,7 @@ header h1 {
 .section-contact {
     text-align: center;
     padding: 2rem 1rem;
+    margin-bottom: 2rem;
 }
 
 form {
