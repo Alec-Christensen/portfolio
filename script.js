@@ -13,3 +13,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Dynamiskt år i footern
+const yearSpan = document.querySelector('#current-year');
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
