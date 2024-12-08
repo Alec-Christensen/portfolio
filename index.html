@@ -78,25 +78,28 @@
 
     <section id="contact" class="section-contact">
         <h2>Contact Me</h2>
-        <p>If you have any questions or would like to get in touch, feel free to send me a message!</p>
-        <form name="contactform">
+        <p>If you have any questions or would like to get in touch, feel free to send me a message.</p>
+        <form id="contactform">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name">
+            <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name">
+            <span id="nameError" class="error"></span>
     
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email">
+            <input type="email" id="email" name="email" placeholder="Your Email" autocomplete="email">
+            <span id="emailError" class="error"></span>
     
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" placeholder="Your Message" required maxlength="500"></textarea>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" maxlength="500"></textarea>
+            <span id="messageError" class="error"></span>
     
             <button type="submit">Send</button>
+            <div id="formConfirmation" style="display: none;"></div>
 
             <div class="contact-info">
                 <p>Contact me at: 
                     <a href="mailto:alec.christensen@yh.nackademin.se">alec.christensen@yh.nackademin.se</a>
                 </p>
-            </div>
-            
+            </div>            
         </form>
     </section>
 
