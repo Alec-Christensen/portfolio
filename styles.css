@@ -357,14 +357,14 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 100%; /* För mobilvänlig bredd */
+    max-width: 100%;
     margin: 0 auto;
 }
 
 form input,
 form textarea,
 form button {
-    width: 100%; /* Anpassar till mobilskärm */
+    width: 100%; 
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -380,6 +380,20 @@ form button {
 
 form button:hover {
     background-color: #00473a;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+#formConfirmation {
+    color: #28a745;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 /* Styling for Contact Info */
