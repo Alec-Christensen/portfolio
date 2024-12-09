@@ -39,12 +39,12 @@ Here is a preview of the portfolio:
 ### Skills, Portfolio, References Screenshot
 *Skills, portfolio, and references sections showcasing abilities and projects.*
 
-![Skills, Portfolio, References Screenshot](images/skills-portfolio-references-screenshot.png)
+![Skills, Portfolio, References Screenshot](images/Skills-Portfolio-References-screenshot.png)
 
 ### Contact Me, Footer Screenshot
 *Contact form and footer with dynamic year display.*
 
-![Contact Me, Footer Screenshot](images/contactme-footer-screenshot.png)
+![Contact Me, Footer Screenshot](images/ContactMe-Footer-screenshot.png)
 
 ## Lessons Learned
 - Improved understanding of HTML5 semantics.
