@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Förhindra horisontell scroll */
+    overflow-x: hidden; 
 }
 
 /*Global styling */
@@ -139,7 +139,6 @@ header h1 {
     transform: scale(1.2); 
 }
 
-/* Specifik färg för LinkedIn */
 .section-about .social-links a[href*="linkedin.com"] {
     color: #0073b1; 
 }
@@ -148,7 +147,6 @@ header h1 {
     color: #005582; 
 }
 
-/* Specifik färg för GitHub */
 .section-about .social-links a[href*="github.com"] {
     color: #333; 
 }
@@ -178,7 +176,7 @@ header h1 {
     gap: 1.5rem;
 }
 
-/* Skills mobilstyling */
+/* Skills */
 .skill-list {
     list-style: none;
     display: flex;
@@ -252,7 +250,7 @@ header h1 {
     }
 }
 
-/* Portfolio mobilstyling */
+/* Portfolio */
 .section-portfolio {
     display: flex;
     flex-direction: column;
@@ -275,16 +273,16 @@ header h1 {
 }
 
 .github-link {
-    color: #0366d6; /* GitHub blå färg */
+    color: #0366d6; 
     text-decoration: none;
     font-weight: bold;
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem; /* Mellanrum om du vill lägga till en ikon */
+    gap: 0.5rem;
 }
 
 .github-link:hover {
-    color: #05428c; /* Mörkare blå vid hover */
+    color: #05428c; 
     text-decoration: underline;
 }
 
@@ -308,7 +306,7 @@ header h1 {
     }
 }
 
-/* References mobilstyling */
+/* References */
 .section-references {
     display: flex;
     flex-direction: column;

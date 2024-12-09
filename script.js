@@ -1,4 +1,4 @@
-// Smooth scrolling for navigation links
+// Smooth scrolling för navigationslänkarna
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (event) {
         event.preventDefault();
@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// Formulärvalidering
 function validateForm() {
     let isValid = true;
 
@@ -66,5 +67,3 @@ function validateForm() {
 
     return isValid;
 }
-
-
