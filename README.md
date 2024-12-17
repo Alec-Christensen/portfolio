@@ -53,7 +53,7 @@ Here is a preview of the portfolio:
 
 ## Author
 **Alec Christensen**  
-- [GitHub Profile](https://github.com/Alec-23)  
+- [GitHub Profile](https://github.com/Alec-Christensen)  
 - [LinkedIn Profile](https://www.linkedin.com/in/alec-christensen-3a4a4a338/) 
 
 ## License
